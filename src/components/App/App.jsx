@@ -3,7 +3,7 @@ import { nanoid } from 'nanoid';
 import ContactForm from 'components/ContactForm/ContactForm';
 import ContactList from 'components/ContactList/ContactList';
 import Filter from 'components/Filter/Filter';
-
+// Hooks
 export default class App extends Component {
   state = {
     contacts: [],
